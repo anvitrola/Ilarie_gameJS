@@ -7,14 +7,12 @@ function removElement () {
     div.innerHTML = "";
 }
 
-
 function restartGame () {
     
     div.innerHTML = "";
-    createLayout("Você desdobrou a dobra no tempo & salvou a sua pelede umas situações muito bizarras que poderiam comprometer a sua estabilidade psíquica. Parabéns, VOCÊ VENCEU, mas não se divertiu :P");
+    createLayout("Você desdobrou a dobra no tempo & salvou a sua pele de umas situações muito bizarras que poderiam comprometer a sua estabilidade psíquica. Parabéns, VOCÊ VENCEU, mas não se divertiu :P");
     continueButton("Recomeçar o jogo?",startGame);
 }
-
 
 function createLayout (sT, cT) {
 
@@ -31,7 +29,6 @@ function createLayout (sT, cT) {
     div.appendChild(choiceText);
 }
 
-
 function continueButton (text, phase) {
 
     let button = document.createElement("button");
@@ -44,7 +41,6 @@ function continueButton (text, phase) {
     button.addEventListener("click", function () {removElement();});
     button.addEventListener("click", phase);
 }
-
 
 function choiceButton (text1,text2, phase) {
 
@@ -68,6 +64,7 @@ function choiceButton (text1,text2, phase) {
     
 
 }
+
 
 function startGame () {
 

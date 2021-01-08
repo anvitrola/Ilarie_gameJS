@@ -11,13 +11,14 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(87, 105, 121);
+    background-image: url(../imgs/back.jpg);
+
 }
 
 .gameBox {
     width: 50%;
     height: 80%;
-    border: 2px solid rgb(0, 0, 0, .7);
+    background-color: #F4D034;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -29,15 +30,27 @@ body{
 }
 
 .gameTitle {
+    width: 36%;
     font-size: 3em;
     letter-spacing: .5em;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    border-radius: 3px;
+    color: #362d21;
+    font-weight: 800;
 }
 
 .botaoContinuar {
     width: 50%;
     height: 4em;
-    color: black;
+    border: none;
+    border-radius: 3px;
+    color:#883337;
+    font-size: 1em;
+    font-weight: 600;
+    background-color:#D78616;
+    cursor: pointer;
 }
+
+.botaoContinuar:hover {
+    background-color: #883337;
+    color: #D78616;
+}
+
