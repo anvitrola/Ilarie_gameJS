@@ -16,8 +16,8 @@ function restartGame () {
 
 function createLayout (sT, cT) {
 
-    var situationText = document.createElement("p");
-    var choiceText = document.createElement("p");
+    let situationText = document.createElement("p");
+    let choiceText = document.createElement("p");
 
     situationText.classList.add("situationText");
     choiceText.classList.add("choiceText");
