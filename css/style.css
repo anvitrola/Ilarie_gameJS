@@ -17,14 +17,14 @@ body{
 
 .gameBox {
     width: 50%;
-    height: 80%;
+    height: 90%;
     background-color: #F4D034;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 3em;
+    padding: 2em;
     line-height: 2em;
     margin-bottom: 3%;
 }
@@ -47,6 +47,7 @@ body{
     font-weight: 600;
     background-color:#D78616;
     cursor: pointer;
+    margin-bottom: 5%;
 }
 
 .botaoContinuar:hover {
@@ -54,3 +55,14 @@ body{
     color: #D78616;
 }
 
+.situationText, .choiceText {
+    color: #1e3499;
+    font-weight: 600;
+}
+
+.imgPhOne {
+    width: 100%;
+    height: 30%;
+    background-image: url(../imgs/banner.jpg);
+    background-size: cover;
+}

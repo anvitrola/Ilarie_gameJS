@@ -1,6 +1,12 @@
 let gameSection = document.querySelector("#gameSection");
 let div = document.querySelector("#gameBox");
 
+function imgContent (id){
+
+    let imgBox = document.createElement("div");
+    imgBox.classList.add(id);
+    div.appendChild(imgBox);
+}
 
 function removElement () {
 
@@ -98,7 +104,8 @@ function afterPhOne () {
         ""
     );
     continueButton("Continuar...", finishOne);
-
+    imgContent("imgPhOne");
+    
 }
 
 function finishOne () {
